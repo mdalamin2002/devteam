@@ -1,10 +1,11 @@
 const greet = (callBack, name) => {
     callBack(name);
+    alert("Hello from index.js!");
 }
 
 
 const sayWelcome = (name) => {
-    console.log("Welcome", name);
+    alert("Welcome _" + name);
 }
 
 greet(sayWelcome, "lamiya");
